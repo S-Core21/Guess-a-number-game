@@ -19,7 +19,7 @@ function submit() {
   if (isNaN(guessBox.value)){
     answer.textContent = "Please input a number";
     guess = [];
-    lastGuess.textContent = guess;
+    lastGuess.textContent ='Lastguess: ' + guess;
   }
   if (guessBox.value == random) {
     answer.textContent = "You're right";
@@ -31,12 +31,13 @@ function submit() {
   if(guessBox.value > incorrect){
     answer.textContent = "Please follow the rules";
     guess = []
-    lastGuess.textContent = guess
+    lastGuess.textContent ='Lastguess: ' + guess
   }
 
   guessBox.value = " ";
 }
 restart.addEventListener("click", function restart() {
+  random = Math.floor(Math.random() * 10);
   answer.textContent = " ";
   guessBox.value = " ";
   guess = [];

@@ -20,6 +20,7 @@ main{
     border-radius: 30px;
     color: aliceblue;
     outline: 15px solid white;
+    
 }
 h1{
     color: yellow;
@@ -87,7 +88,7 @@ button{
     }
     main{
         width: 80%;
-        outline: 5px solid white;
+        outline: 15px solid white;
     }
     button{
         padding: 8px;
