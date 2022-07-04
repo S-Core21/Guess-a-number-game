@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(192, 140, 72);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    background-color: rgb(16, 83, 16);
+    padding: 25px;
+    border-radius: 30px;
+    color: aliceblue;
+    outline: 15px solid white;
+}
+h1{
+    color: yellow;
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+p, h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 25px;
+}
+h6{
+    font-size: 20px;
+}
+label{
+    display: none;
+}
+span{
+    width: 90%;
+    text-align: center;
+}
+input{
+    width: 20%;
+    margin: 1rem 0rem;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+}
+button{
+    padding: 12px;
+    font-size: larger;
+    border-radius: 20px;
+}
+#submit{
+    background-color: darkcyan;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+#restart{
+    background-color: darkgray;
+    font-weight: bolder;
+}
+#restart:hover{
+    background-color: red;
+    color: white;
+}
+#submit:hover{
+    background-color: rgb(77, 179, 77);
+    color: white;
+}
+@media screen and (max-width: 420px) {
+    *{
+        margin: 6px;
+    }
+    main{
+        width: 80%;
+        outline: 5px solid white;
+    }
+    button{
+        padding: 8px;
+        font-size: large;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+}
+
